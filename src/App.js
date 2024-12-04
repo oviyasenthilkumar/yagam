@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Home from './components/Home';
+import AboutMahaYagam from './components/About';
+import Header from './components/Header';
+import AboutTrust from './components/AboutTrust';
+import InvitationLetter from './components/Letter';
+import FundsSection from './components/Funds';
+import SacredGlimpses from './components/Carousel';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Home />
+      <AboutTrust />
+      <SacredGlimpses />
+      <InvitationLetter />
+      <FundsSection />
+      {/* <Footer /> */}
+    </>
   );
-}
+};
+
+
+
 
 export default App;
