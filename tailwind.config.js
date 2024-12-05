@@ -12,6 +12,11 @@ module.exports = {
         primary: "#4D2623",
         secondary: "#f9f5f0",
       },
+      backdropBlur: {
+        sm: "4px",
+        md: "8px",
+        lg: "16px",
+      },
     },
   },
   plugins: [],

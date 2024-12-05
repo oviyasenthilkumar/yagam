@@ -17,20 +17,20 @@ const Home = () => {
         <div className="z-20 relative">
           {isDesktop ? (
             <img
-              src="/assets/png/hero Banner.png"
+              src="/assets/png/Hero Banner.png"
               alt="Hero Mobile"
               className="relative w-full"
             />
           ) : (
             <img
-              src="/assets/png/hero Banner Web.png"
+              src="/assets/png/Hero Banner Web.png"
               alt="Hero"
-              className="relative"
+              className="relative w-full"
             />
           )}
         </div>
 
-        <Header />
+       
       </div>
 
       <div className="w-[90%] lg:w-[80%] mx-auto bg-white rounded-[25px] shadow-lg p-6 z-10 relative top-[-1rem] md:top-[-5em] lg:top-[-9em]">
