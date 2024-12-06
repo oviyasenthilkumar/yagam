@@ -10,35 +10,41 @@ const Home = () => {
 
 
   return (
-    <div
-      className="bg-[#ECE5DF]"
-    >
+    <div className="bg-[#ECE5DF]">
       <div className=" w-full sm:pt-0 ">
         <div className="z-20 relative">
           {isDesktop ? (
-            <img
-              src="/assets/png/Hero Banner.png"
-              alt="Hero Mobile"
-              className="relative w-full"
-            />
+            <>
+              <img
+                src="/assets/png/Hero Banner.png"
+                alt="Hero Mobile"
+                className="relative w-full"
+              />
+            </>
           ) : (
-            <img
-              src="/assets/png/Hero Banner Web.png"
-              alt="Hero"
-              className="relative w-full"
-            />
+            <>
+              <img
+                src="/assets/png/Hero Banner Web.png"
+                alt="Hero"
+                className="relative w-full"
+              />
+            </>
           )}
         </div>
-
-       
       </div>
 
       <div className="w-[90%] lg:w-[80%] mx-auto bg-white rounded-[25px] shadow-lg p-6 z-10 relative top-[-1rem] md:top-[-5em] lg:top-[-9em]">
+        <div className="absolute top-[-4rem] xl:top-[-5rem] left-1/2 -translate-x-1/2">
+          <button className="font-raleway pr-5 text-white bg-[#D3A243] px-6 py-3 sm:px-5 rounded-full text-sm sm:text-base lg:text-lg transition-transform duration-300 hover:scale-105">
+            DONATE NOW
+          </button>
+        </div>
+
         <div className="grid lg:grid-cols-[55%_45%] gap-6 items-center">
           <div className="space-y-4 md:pl-[3rem] sm:pl-[1rem]">
             <div className="order-1">
               <h1 className="text-2xl lg:text-3xl font-bold text-gray-800 leading-tight uppercase font-raleway">
-                Name of Event - SAMUDHA <br /> EKADASHARATRA MAHAYAGAM
+                Name of Event - Poundarika Mahayagam
               </h1>
               <h3 className="text-lg lg:text-xl font-medium text-gray-600 font-raleway pt-1 pb-1">
                 (TRISHAHASRAGNI YUKTA POUNDAREEKA YAGAM)
@@ -69,7 +75,7 @@ const Home = () => {
                     alt="Calendar Icon"
                     className="bg-[#BB7E3B] p-2 rounded-[25%] h-10 w-10"
                   />
-                  <span className=" text-gray-800 font-raleway text-lg	">
+                  <span className=" text-gray-800 font-raleway text-lg">
                     DATE
                   </span>
                 </div>
@@ -86,11 +92,11 @@ const Home = () => {
                     alt="Calendar Icon"
                     className="bg-[#BB7E3B] p-2 rounded-[25%] h-10 w-10"
                   />
-                  <span className=" text-gray-800 font-raleway text-lg	">
+                  <span className=" text-gray-800 font-raleway text-lg">
                     ORGANIZER NAME
                   </span>
                 </div>
-                <p className="text-gray-600 text-sm font-raleway text-base	">
+                <p className="text-gray-600 text-sm font-raleway text-base">
                   Ghanapathi" Brahmasri Dendukuri Sadaashiva Somayaaji Elder Son
                   of Brahmasri. Dendukuri Lakshmi Narasimha Somayaaji & The
                   Grand Son of Bahuyaji Kandatrayasrowthi Vedanidhi Brahmasri
@@ -125,7 +131,7 @@ const Home = () => {
         />
       </div>
 
-      <BenefitsOfYagam/>
+      <BenefitsOfYagam />
     </div>
   );
 }

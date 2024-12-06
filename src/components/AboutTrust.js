@@ -37,7 +37,10 @@ const AboutTrust = () => {
                     D. Sada Siva Ghanapathi Somayaji
                   </p>
                   <p className="flex items-center gap-2 text-sm sm:text-base pt-2 font-raleway">
-                    <img src="/assets/png/call.png" /> <span>9440366904</span>
+                    <img src="/assets/png/call.png" />{" "}
+                    <a href="tel:+919440366904" className="no-underline">
+                      9440366904
+                    </a>
                   </p>
                 </div>
                 <div>
@@ -45,21 +48,27 @@ const AboutTrust = () => {
                     D. Laxmi Narasimha Somayaji
                   </p>
                   <p className="flex items-center gap-2 text-sm sm:text-base pl-10 pt-2 font-raleway">
-                    <img src="/assets/png/call.png" /> <span>9849132500</span>
+                    <img src="/assets/png/call.png" />{" "}
+                    <a href="tel:+919849132500" className="no-underline">
+                      9849132500
+                    </a>
                   </p>
                 </div>
               </div>
               <div>
                 <p className=" text-sm sm:text-base">D. Kasi Viswanath Sarma</p>
                 <p className="flex items-center gap-2 text-sm sm:text-base pt-2 font-raleway">
-                  <img src="/assets/png/call.png" /> <span>9849289517</span>
+                  <img src="/assets/png/call.png" />{" "}
+                  <a href="tel:+919849289517" className="no-underline">
+                    9849289517
+                  </a>
                 </p>
                 <p className="flex items-center gap-2 text-sm sm:text-base pt-2 font-raleway">
                   <img src="/assets/svg/location_yellow.svg" />
-                  <span>
+                  <a href="https://maps.app.goo.gl/YGmBCRPYtntR4Dhn9" className="no-underline">
                     D.No.27-27-8, Maddulapallivari Street, Governerpet,
                     VIJAYAWADA-520002.
-                  </span>
+                  </a>
                 </p>
               </div>
             </div>

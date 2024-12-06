@@ -20,8 +20,8 @@ const AboutMahaYagam = () => {
           The Poundarika Mahayagam, a rare and powerful Vedic ritual, is being
           performed with blessings from the Kanchi Kamakoti Guru Parampara under
           the guidance of Sri Shankara Vijayendra Saraswati Mahaswamigal. Led by
-          Sri Dendukuri Brahmasri Lakshmi Narasimha Somayaaji, this 45-day yagna
-          chants all three Vedas—Rig, Yajur, and Sama—for universal prosperity.
+          Sada siva Ghanapathi somayaji, this 45-day yagna chants all three
+          Vedas—Rig, Yajur, and Sama—for universal prosperity.
         </p>
 
         {/* Card Section */}

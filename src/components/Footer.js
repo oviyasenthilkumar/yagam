@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer
-      className="text-white py-12 w-full h-auto absolute left-0 top-0 pt-[50rem] md:pt-[38rem] bg-no-repeat bg-[#ECE5DF] z-10"
+      className="text-white pb-4 w-full h-auto absolute left-0 top-0 pt-[50rem] md:pt-[38rem] bg-no-repeat bg-[#ECE5DF] z-10"
       style={{
         backgroundImage: isMobile
           ? "url(/assets/png/Footer-design-mob.png)"
@@ -101,38 +101,15 @@ const Footer = () => {
             ></iframe>
           </div>
 
-          {/* <div>
-            <h3 className="text-xl font-semibold mb-4 text-[#F3CD39]  mt-8">
-              Stay in the Loop With Our Newsletter!
-            </h3>
-            <div className="flex items-center justify-between w-[80%] ">
-              <form>
-                <input
-                  placeholder="Email Id"
-                  type="email"
-                  className="bg-transparent w-full text-[#FFFFFF]"
-                />
-              </form>
-              <div>
-                <img src="./assets/png/arrow.png" alt="arrow" />
-              </div>
-            </div>
-            <hr className="my-3 border-[#fff] w-[80%]" />
-            <p className="text-[#FFFFFF] mb-4">
-              Subscribe to our newsletter and unlock a world of exclusive
-              benefits. Be the first to know about our latest promotions,
-              updates, and events.
-            </p>
-          </div> */}
+          
         </div>
 
         {/* Bottom Section */}
-        {/* <div className="mt-10 border-t border-[#fff] pt-6 text-center text-sm">
+        <div className="mt-5 border-t border-[#aaa] pt-3 text-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Poundarika Maha Soma Yagam. All
-            rights reserved.
+             Powered by GoZen
           </p>
-        </div> */}
+        </div>
       </div>
     </footer>
   );

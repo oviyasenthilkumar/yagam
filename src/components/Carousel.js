@@ -12,7 +12,6 @@ const SacredGlimpses = () => {
     { src: "./assets/jpg/glip-5.jpg", alt: "Sacred Glimpse 3" },
     { src: "./assets/jpg/glip-6.jpg", alt: "Sacred Glimpse 4" },
     { src: "./assets/jpg/glip-3.jpg", alt: "Sacred Glimpse 3" },
-    { src: "./assets/jpg/glip-4.jpg", alt: "Sacred Glimpse 4" },
     { src: "./assets/jpg/glip-7.jpg", alt: "Sacred Glimpse 3" },
     { src: "./assets/jpg/glip-8.jpg", alt: "Sacred Glimpse 4" },
   ];

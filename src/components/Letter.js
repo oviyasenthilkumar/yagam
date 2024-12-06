@@ -27,12 +27,12 @@ const InvitationLetter = () => {
             <a
               href="/assets/pdf/invitation.pdf" // Link to your file
               download="Invitation" // File name for download
-              className="flex items-center justify-center bg-transparent text-[#8D2732] px-4 py-2 sm:px-6 sm:py-3 rounded-[25px] font-semibold shadow transition font-raleway text-sm sm:text-base md:text-lg"
+              className="flex items-center justify-center bg-transparent text-[#8D2732] px-3 py-2 sm:px-4 sm:py-3 md:px-6 md:py-4 rounded-[25px] font-semibold shadow transition duration-200 ease-in-out font-raleway text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#8D2732] hover:text-white"
             >
               <img
                 src="./assets/png/Icon.png"
                 alt="download"
-                className="w-4 h-4 sm:w-5 sm:h-5 mr-2"
+                className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 mr-2"
               />
               <span className="whitespace-nowrap">DOWNLOAD INVITATION</span>
             </a>
@@ -51,12 +51,12 @@ const InvitationLetter = () => {
             <a
               href="/assets/pdf/letter.pdf" // Link to your file
               download="Letter" // File name for download
-              className="flex items-center justify-center bg-transparent text-[#8D2732] px-4 py-2 sm:px-6 sm:py-3 rounded-[25px] font-semibold shadow transition font-raleway text-sm sm:text-base md:text-lg"
+              className="flex items-center justify-center bg-transparent text-[#8D2732] px-3 py-2 sm:px-4 sm:py-3 md:px-6 md:py-4 rounded-[25px] font-semibold shadow transition duration-200 ease-in-out font-raleway text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#8D2732] hover:text-white"
             >
               <img
                 src="./assets/png/Icon.png"
                 alt="download"
-                className="w-4 h-4 sm:w-5 sm:h-5 mr-2"
+                className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 mr-2"
               />
               <span className="whitespace-nowrap">DOWNLOAD LETTER</span>
             </a>
