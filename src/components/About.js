@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMahaYagam = () => {
   return (
-    <div className=" py-12 relative pt-[6rem]">
+    <section id="about" className=" py-12 relative pt-[6rem]">
       <div className="absolute right-0 z-0 opacity-50">
         <img src="/assets/png/left.png" alt="left flower" />
       </div>
@@ -75,7 +75,7 @@ const AboutMahaYagam = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

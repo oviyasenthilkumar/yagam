@@ -11,13 +11,13 @@ const SacredGlimpses = () => {
     { src: "./assets/jpg/glip-2.jpg", alt: "Sacred Glimpse 2" },
     { src: "./assets/jpg/glip-5.jpg", alt: "Sacred Glimpse 3" },
     { src: "./assets/jpg/glip-6.jpg", alt: "Sacred Glimpse 4" },
-    { src: "./assets/jpg/glip-3.jpg", alt: "Sacred Glimpse 5" },
-    { src: "./assets/jpg/glip-7.jpg", alt: "Sacred Glimpse 6" },
-    { src: "./assets/jpg/glip-4.jpg", alt: "Sacred Glimpse 7" },
+    { src: "./assets/jpg/glip-3.jpg", alt: "Sacred Glimpse 3" },
+    { src: "./assets/jpg/glip-7.jpg", alt: "Sacred Glimpse 3" },
+    { src: "./assets/jpg/glip-8.jpg", alt: "Sacred Glimpse 4" },
   ];
 
   return (
-    <div className="bg-[#ECE5DF] py-10 px-5">
+    <section id="carousel" className="bg-[#ECE5DF] py-10 px-5">
       <div className="text-center">
         <h2 className="text-3xl font-bold text-[#411E22] font-raleway mb-4">
           Sacred Glimpses
@@ -55,7 +55,7 @@ const SacredGlimpses = () => {
           ))}
         </Swiper>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ const Home = () => {
 
 
   return (
-    <div className="bg-[#ECE5DF]">
+    <section id='hero' className="bg-[#ECE5DF]">
       <div className=" w-full sm:pt-0 ">
         <div className="z-20 relative">
           {isDesktop ? (
@@ -63,7 +63,7 @@ const Home = () => {
                     PLACE
                   </span>
                 </div>
-                <p className="text-gray-600 text-sm font-raleway text-base	">
+                <p className="text-gray-600 text-sm font-raleway	">
                   Sri Chadra Sekharendra Saraswati Maha swami Devasthanam,
                   Nunna, Chinna Kanchi, Vijayawada, Andhra Pradesh.
                 </p>
@@ -79,7 +79,7 @@ const Home = () => {
                     DATE
                   </span>
                 </div>
-                <p className="text-gray-600 text-sm font-raleway text-base	">
+                <p className="text-gray-600 text-sm font-raleway 	">
                   From 12th Feb 2025 to 15th March 2025
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Home = () => {
                     ORGANIZER NAME
                   </span>
                 </div>
-                <p className="text-gray-600 text-sm font-raleway text-base">
+                <p className="text-gray-600 text-sm font-raleway ">
                   Ghanapathi" Brahmasri Dendukuri Sadaashiva Somayaaji Elder Son
                   of Brahmasri. Dendukuri Lakshmi Narasimha Somayaaji & The
                   Grand Son of Bahuyaji Kandatrayasrowthi Vedanidhi Brahmasri
@@ -123,7 +123,7 @@ const Home = () => {
 
       <AboutMahaYagam />
       {/* Image Section */}
-      <div className="relative mt-12 w-full p-[10px] md:p-[2rem] md:p-[3rem]  lg:p-[4rem] xl:px-[14em]">
+      <div className="relative mt-12 w-full p-[10px] md:p-[3rem]  lg:p-[4rem] xl:px-[14em]">
         <img
           src="/assets/png/about_abstract.png"
           alt="Maha Yagam Ceremony"
@@ -132,7 +132,7 @@ const Home = () => {
       </div>
 
       <BenefitsOfYagam />
-    </div>
+    </section>
   );
 }
 

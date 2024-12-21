@@ -2,7 +2,7 @@ import React from "react";
 
 const InvitationLetter = () => {
   return (
-    <section className="relative">
+    <section id="letter" className="relative">
       {/* Background Images */}
       <div className="absolute top-0 right-0 z-10 opacity-50">
         <img src="./assets/png/left.png" alt="kolam" className="w-full" />

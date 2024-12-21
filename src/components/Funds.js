@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const FundsSection = () => {
   return (
-    <section className="bg-[#ECE5DF] py-16 px-6 relative ">
+    <section id="funds" className="bg-[#ECE5DF] py-16 px-6 relative ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-[95%] md:w-[85%] z-20 relative">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#411E22] mb-4 sm:mb-6">
           Funds
@@ -47,7 +47,6 @@ const FundsSection = () => {
           ></div>
         </div>
       </div>
-
       <Footer />
     </section>
   );

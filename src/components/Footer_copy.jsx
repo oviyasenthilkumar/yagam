@@ -3,12 +3,12 @@ import { useMediaQuery } from "react-responsive";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const FooterCopy = ({className}) => {
   const isMobile = useMediaQuery({ maxWidth: "500px" });
 
   return (
     <footer
-      className="text-white pb-4 w-full h-auto absolute left-0 top-0 pt-[50rem] md:pt-[54rem] lg:pt-[38rem] bg-no-repeat bg-[#ECE5DF] z-10"
+      className={`text-white pb-4 w-full h-auto absolute left-0 top-0 bg-no-repeat bg-[#ECE5DF] z-10 ${className}`}
       style={{
         backgroundImage: isMobile
           ? "url(/assets/png/Footer-design-mob.png)"
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
 
           {/* Second Column */}
-          <div className="md:pl-[3rem]">
+          {/* <div className="md:pl-[3rem]">
             <h3 className="text-xl font-semibold text-[#F3CD39]  mb-4 mt-2 md:mt-8">
               Quick Links
             </h3>
@@ -87,9 +87,8 @@ const Footer = () => {
                   Donate
                 </a>
               </li>
-              
             </ul>
-          </div>
+          </div> */}
           {/* Third Column */}
           <div className="md:pl-[3rem]">
             <h3 className="text-xl font-semibold text-[#F3CD39]  mb-4 mt-2 md:mt-8">
@@ -116,12 +115,11 @@ const Footer = () => {
                   <Link to="/contact">Contact Us</Link>
                 </a>
               </li>
-            
             </ul>
           </div>
 
           {/* Fourth Column */}
-          {/* <div>
+          <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7650.523276030708!2d80.62248319489895!3d16.512883773292728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sD.No.27-27-8%2C%20Maddulapallivari%20Street%2C%20Governerpet%2C%20VIJAYAWADA-520002.!5e0!3m2!1sen!2sin!4v1733296608472!5m2!1sen!2sin"
               width="100%"
@@ -130,7 +128,7 @@ const Footer = () => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div> */}
+          </div>
         </div>
 
         {/* Bottom Section */}
@@ -142,4 +140,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterCopy;
