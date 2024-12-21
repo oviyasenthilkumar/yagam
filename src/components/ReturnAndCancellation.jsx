@@ -24,62 +24,54 @@ const ReturnAndCancellation = () => {
             <div>
               <dt className="font-semibold text-[#411E22] mb-2">Donations</dt>
               <dd className="text-gray-700 leading-relaxed">
-                Donations are non-refundable. If you experience an error during
-                a transaction, contact us within 7 days.
+                Donations are completely non-refundable under any circumstances.
               </dd>
             </div>
-
             <div>
               <dt className="font-semibold text-[#411E22] mb-2">
                 Event Registrations
               </dt>
               <dd className="text-gray-700 leading-relaxed">
-                Refunds for cancellations will be handled on a case-by-case
-                basis. Notify us at least 48 hours prior to the event.
+                Refunds for event registrations will be considered only under
+                exceptional circumstances. Please notify us at least 48 hours
+                prior to the event.
               </dd>
             </div>
-
             <div>
               <dt className="font-semibold text-[#411E22] mb-2">
                 Membership Fees
               </dt>
               <dd className="text-gray-700 leading-relaxed">
-                Membership fees are non-refundable unless special circumstances
-                apply. Contact us for more information.
+                Membership fees are non-refundable and cannot be transferred to
+                another person or event.
               </dd>
             </div>
-
-          
-              
-                <div>
-                  <dt className="font-semibold text-[#411E22] mb-2">
-                    How to Request a Refund
-                  </dt>
-                  <dd className="text-gray-700 leading-relaxed">
-                    <strong>D. Sada Siva Ghanapathi Somayaji : </strong>
-                    <a href="tel:+919440366904">+91 9440366904</a>
-                  </dd>
-                  <dd className="text-gray-700 leading-relaxed">
-                    <strong>D. Laxmi Narasimha Somayaji : </strong>
-                    <a href="tel:+919849132500">+91 9849132500</a>
-                  </dd>
-                  <dd className="text-gray-700 leading-relaxed">
-                    <strong>D. Kasi Viswanath Sarma : </strong>
-                    <a href="tel:+919849289517">+91 9849289517</a>
-                  </dd>
-                </div>
-                4
-                <br />
-                Provide your transaction ID and reason for the request.
-              
-          
+            <div>
+              <dt className="font-semibold text-[#411E22] mb-2">
+                How to Request a Refund
+              </dt>
+              <dd className="text-gray-700 leading-relaxed">
+                <strong>D. Sada Siva Ghanapathi Somayaji : </strong>
+                <a href="tel:+919440366904">+91 9440366904</a>
+              </dd>
+              <dd className="text-gray-700 leading-relaxed">
+                <strong>D. Laxmi Narasimha Somayaji : </strong>
+                <a href="tel:+919849132500">+91 9849132500</a>
+              </dd>
+              <dd className="text-gray-700 leading-relaxed">
+                <strong>D. Kasi Viswanath Sarma : </strong>
+                <a href="tel:+919849289517">+91 9849289517</a>
+              </dd>
+            </div>
+            <br />
+            Please provide your transaction ID and reason for the request.
           </dl>
 
           <div className="mt-8 text-gray-700 leading-relaxed">
             Thank you for your understanding and support.
           </div>
         </div>
-        <FooterCopy className="mt-12  pt-[70rem] md:pt-[48rem] lg:pt-[45rem]" />
+        <FooterCopy className="mt-12 pt-[82rem] md:pt-[50rem] lg:pt-[47rem] " />
       </section>
     </>
   );

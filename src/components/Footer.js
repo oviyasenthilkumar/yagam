@@ -106,11 +106,7 @@ const Footer = () => {
                   <Link to="/return">Refunds and cancellation</Link>
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-gray-400">
-                  <Link to="/privacy">Privacy Policy</Link>
-                </a>
-              </li>
+              
               <li>
                 <a href="#" className="hover:text-gray-400">
                   <Link to="/contact">Contact Us</Link>

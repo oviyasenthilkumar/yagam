@@ -105,14 +105,40 @@ const Terms = () => {
               <dd className="text-gray-700 leading-relaxed">
                 If you have any questions about these terms or encounter issues
                 during payment, please contact us at:
-                <br />
-                Email: [email address]
-                <br />
-                Phone: +91 9440366904
-                <br />
-                Address: D.No.27-27-8, Maddulapallivari Street, Governerpet,
-                VIJAYAWADA-520002.
               </dd>
+              <br />
+              <div>
+                <dt className="font-semibold text-[#411E22] mb-2">
+                  For Enquiry
+                </dt>
+                <dd className="text-gray-700 leading-relaxed">
+                  <strong>D. Sada Siva Ghanapathi Somayaji : </strong>
+                  <a href="tel:+919440366904">+91 9440366904</a>
+                </dd>
+                <dd className="text-gray-700 leading-relaxed">
+                  <strong>D. Laxmi Narasimha Somayaji : </strong>
+                  <a href="tel:+919849132500">+91 9849132500</a>
+                </dd>
+                <dd className="text-gray-700 leading-relaxed">
+                  <strong>D. Kasi Viswanath Sarma : </strong>
+                  <a href="tel:+919849289517">+91 9849289517</a>
+                </dd>
+              </div>
+              <br />
+              <div>
+                <dt className="font-semibold text-[#411E22] mb-2">Address</dt>
+                <dd className="text-gray-700 leading-relaxed">
+                  <a
+                    href="https://www.google.com/maps/search/?q=D.No.27-27-8,+Maddulapallivari+Street,+Governerpet,+VIJAYAWADA-520002"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    D.No.27-27-8, Maddulapallivari Street, Governerpet,
+                    <br />
+                    VIJAYAWADA-520002.
+                  </a>
+                </dd>
+              </div>
             </div>
           </dl>
         </div>
@@ -123,7 +149,7 @@ const Terms = () => {
           your support!
         </div>
       </div>
-      <FooterCopy className="mt-12 pt-[83rem]" />
+      <FooterCopy className="mt-12  pt-[170rem] md:pt-[100rem] lg:pt-[92rem]" />
     </section>
   );
 };

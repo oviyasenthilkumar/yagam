@@ -1,24 +1,3 @@
-// import React from 'react'
-
-
-// const App = () => {
-//   return (
-//     <>
-      // <Header />
-      // <Home />
-      // <AboutTrust />
-      // <SacredGlimpses />
-      // <InvitationLetter />
-      // <FundsSection />
-      // {/* <Footer /> */}
-//     </>
-//   );
-// };
-
-
-
-
-// export default App;
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Terms from "./Pages/T&C"; 
@@ -37,7 +16,7 @@ const App = () => {
           {/* Define routes */}
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
-          <Route path="/privacy" element={<PrivacyPolicy/>} />
+          {/* <Route path="/privacy" element={<PrivacyPolicy/>} /> */}
           <Route path="/return" element={<ReturnAndCancellation/>} />
           <Route path="/contact" element={<ContactUs/>} />
         </Routes>

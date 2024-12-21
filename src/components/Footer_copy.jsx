@@ -18,7 +18,7 @@ const FooterCopy = ({className}) => {
       }}
     >
       <div className="container mx-auto px-3 ">
-        <div className="grid grid-cols-1  md:grid-cols-3 lg:gap-10">
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-5 lg:gap-10">
           {/* First Column */}
           <div>
             <div className=" w-[73%] mb-6 mt-2 md:mt-8">
@@ -105,11 +105,7 @@ const FooterCopy = ({className}) => {
                   <Link to="/return">Refunds and cancellation</Link>
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-gray-400">
-                  <Link to="/privacy">Privacy Policy</Link>
-                </a>
-              </li>
+              
               <li>
                 <a href="#" className="hover:text-gray-400">
                   <Link to="/contact">Contact Us</Link>
