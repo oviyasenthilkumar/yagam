@@ -149,7 +149,7 @@ const Terms = () => {
           your support!
         </div>
       </div>
-      <FooterCopy className="mt-12  pt-[170rem] md:pt-[100rem] lg:pt-[92rem]" />
+      <FooterCopy className="mt-12  pt-[180rem] md:pt-[110rem] lg:pt-[92rem]" />
     </section>
   );
 };
