@@ -1,16 +1,15 @@
-import React from 'react'
-import Header from './Header';
-import AboutMahaYagam from './About';
-import { useMediaQuery } from "react-responsive"; 
-import BenefitsOfYagam from './BenefitsOfYagam';
+import React from "react";
+import Header from "./Header";
+import AboutMahaYagam from "./About";
+import { useMediaQuery } from "react-responsive";
+import BenefitsOfYagam from "./BenefitsOfYagam";
+import DonateButton from "./DonateButton";
 
 const Home = () => {
-
-  const isDesktop = useMediaQuery({maxWidth:"500px"});
-
+  const isDesktop = useMediaQuery({ maxWidth: "500px" });
 
   return (
-    <section id='hero' className="bg-[#ECE5DF]">
+    <section id="hero" className="bg-[#ECE5DF]">
       <div className=" w-full sm:pt-0 ">
         <div className="z-20 relative">
           {isDesktop ? (
@@ -33,11 +32,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-[90%] lg:w-[80%] mx-auto bg-white rounded-[25px] shadow-lg p-6 z-10 relative top-[-1rem] md:top-[-5em] lg:top-[-9em]">
-        <div className="absolute top-[-4rem] xl:top-[-5rem] left-1/2 -translate-x-1/2">
-          <button className="font-raleway pr-5 text-white bg-[#D3A243] px-6 py-3 sm:px-5 rounded-full text-sm sm:text-base lg:text-lg transition-transform duration-300 hover:scale-105">
-            DONATE NOW
-          </button>
+      <div className="w-[90%] lg:w-[80%] mx-auto bg-white rounded-[25px] shadow-lg p-6 z-20 relative top-[-1rem] md:top-[-5em] lg:top-[-9em]">
+        <div className="absolute top-[-4rem] xl:top-[-5rem] left-1/2 -translate-x-1/2 z-50 cursor-pointer">
+          {/* <button className="font-raleway pr-5 text-white bg-[#D3A243]  px-6 py-3 sm:px-5 rounded-full text-sm sm:text-base lg:text-lg transition-transform duration-300 hover:scale-105">
+            <a href="https://rzp.io/rzp/yagam" target="_blank">
+              Donate Now
+            </a>
+          </button> */}
+          <DonateButton/>
         </div>
 
         <div className="grid lg:grid-cols-[55%_45%] gap-6 items-center">
@@ -104,10 +106,13 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div>
-              <button className="font-raleway text-white bg-[#8D2732] px-3 py-1 sm:px-5 sm:py-3 rounded-full text-[0.9rem] sm:text-[0.9rem] lg:text-[0.8rem] transition-transform duration-300 hover:scale-105">
-                DONATE NOW
-              </button>
+            <div className="mt-10">
+              {/* <button className="font-raleway text-white bg-[#8D2732] px-3 py-1 sm:px-5 sm:py-3 rounded-full text-[0.9rem] sm:text-[0.9rem] lg:text-[0.8rem] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <a href="https://rzp.io/rzp/yagam" target="_blank">
+                  Donate Now
+                </a>
+              </button> */}
+              <DonateButton/>
             </div>
           </div>
 
@@ -134,6 +139,6 @@ const Home = () => {
       <BenefitsOfYagam />
     </section>
   );
-}
+};
 
-export default Home
+export default Home;

@@ -6,19 +6,19 @@ import ScrollToTop from "./components/ScrollToTop";
 import ContactUs from "./components/ContactUs";
 import ReturnAndCancellation from "./components/ReturnAndCancellation";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import PaymentPage from "./components/PaymentPage";
 
 const App = () => {
   return (
     <Router>
       <div>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
-          {/* Define routes */}
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
-          {/* <Route path="/privacy" element={<PrivacyPolicy/>} /> */}
-          <Route path="/return" element={<ReturnAndCancellation/>} />
-          <Route path="/contact" element={<ContactUs/>} />
+          <Route path="/return" element={<ReturnAndCancellation />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/payment" element={<PaymentPage />} />
         </Routes>
       </div>
     </Router>

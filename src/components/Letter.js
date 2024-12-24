@@ -11,7 +11,7 @@ const InvitationLetter = () => {
         <img src="./assets/png/right.png" alt="kolam" className="w-full" />
       </div>
 
-      <div className="bg-[#ECE5DF] flex flex-col items-center justify-center md:px-4 relative">
+      <div className="bg-[#ECE5DF] flex flex-col items-center justify-center md:px-4 relative py-[3rem]">
         {/* Container for Invitation and Letter */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-32 w-[80%] md:w-[75%] lg:w-[70%] xl:w-[62%] h-[70%]">
           {/* Invitation Section */}

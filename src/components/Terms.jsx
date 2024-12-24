@@ -47,9 +47,10 @@ const Terms = () => {
               <dd className="text-gray-700 leading-relaxed">
                 Donations: Donations are typically non-refundable. However, if
                 an error occurs during the transaction, please contact us within
-                7 days at [contact email/+91-9440366904]. Event Registrations or
-                Membership Fees: Refunds for event cancellations or membership
-                changes will be handled on a case-by-case basis.
+                7 days at <a href="tel:+919440366904">+91-9440366904</a>. Event
+                Registrations or Membership Fees: Refunds for event
+                cancellations or membership changes will be handled on a
+                case-by-case basis.
               </dd>
             </div>
 
@@ -71,8 +72,7 @@ const Terms = () => {
                 Your personal and payment information will be handled securely
                 and used solely for processing your payment. We do not share
                 your information with third parties except as necessary to
-                process your transaction. For more details, refer to our
-                [Privacy Policy link].
+                process your transaction.
               </dd>
             </div>
 

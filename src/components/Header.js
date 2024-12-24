@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DonateButton from "./DonateButton";
 
 const Header = () => {
   return (
@@ -15,9 +16,12 @@ const Header = () => {
           </Link>
         </a>
         <a href="">
-          <button className="font-raleway pr-5 text-white bg-[#D3A243] px-4 py-2 sm:px-5 rounded-full text-sm sm:text-base lg:text-lg transition-transform duration-300 hover:scale-105">
-            DONATE NOW
-          </button>
+          {/* <button className="font-raleway pr-5 text-white bg-[#D3A243] px-4 py-2 sm:px-5 rounded-full text-sm sm:text-base lg:text-lg transition-transform duration-300 hover:scale-105">
+            <a href="https://rzp.io/rzp/yagam" target="_blank">
+              Donate Now
+            </a>
+          </button> */}
+          <DonateButton/>
         </a>
       </header>
     </>

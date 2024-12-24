@@ -6,6 +6,7 @@ import AboutTrust from "../components/AboutTrust";
 import InvitationLetter from "../components/Letter";
 import FundsSection from "../components/Funds";
 import SacredGlimpses from "../components/Carousel";
+import YouTubeSection from '../components/YouTubeSection';
 
 const HomePg = () => {
   return (
@@ -15,6 +16,7 @@ const HomePg = () => {
       <AboutTrust />
       <SacredGlimpses />
       <InvitationLetter />
+      <YouTubeSection/>
       <FundsSection />
     </div>
   );

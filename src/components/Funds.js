@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import DonateButton from "./DonateButton";
 
 const FundsSection = () => {
   return (
@@ -30,14 +31,17 @@ const FundsSection = () => {
                 seek the blessings of Yagneshwara.
               </li>
             </ul>
-            <p className="text-[#2A2A2A] mt-4 sm:mt-6 text-sm sm:text-base">
+            <p className="text-[#2A2A2A] mt-4 sm:mt-6 text-sm sm:text-base mb-10">
               *** All are welcome to attend the Mahayagam in person ***
               <br />
               Jaya Jaya Shankara! Hara Hara Shankara!
             </p>
-            <button className="bg-[#8D2732] text-white px-6 sm:px-8 py-2 sm:py-3 mt-4 sm:mt-6 rounded-full shadow hover:bg-[#741f29] transition font-raleway text-sm sm:text-base">
-              Donate Now
-            </button>
+            {/* <button className="bg-[#8D2732] text-white px-6 sm:px-8 py-2 sm:py-3 mt-4 sm:mt-6 rounded-full shadow hover:bg-[#741f29] transition font-raleway text-sm sm:text-base">
+              <a href="https://rzp.io/rzp/yagam" target="_blank">
+                Donate Now
+              </a>
+            </button> */}
+            <DonateButton/>
           </div>
 
           {/* Right Column */}
@@ -53,4 +57,3 @@ const FundsSection = () => {
 };
 
 export default FundsSection;
-
